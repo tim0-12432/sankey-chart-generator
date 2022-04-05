@@ -1,6 +1,6 @@
 # Ein Programm, das ein Sankey-Diagramm erstellt
 
-- **Input**: ein csv-Export der Ein- und Ausgaben
+- **Input**: a csv-export of incomes and expenses
   ```csv
     Buchungstag;Valuta;Textschluessel;Primanota;Zahlungsempfaenger;Waehrung;Umsatz;Soll/Haben
     02.03.2022;02.03.2022;Basislastschrift;985;Mustermann Immobilien;EUR;485,00;S
@@ -17,10 +17,10 @@
     07.03.2022;07.03.2022;Kartenzahlung girocard;985;DB Ticketautomat;EUR;6,32;S
     07.03.2022;07.03.2022;Kartenzahlung girocard;985;MCDonalds Fastfood;EUR;10,89;S
   ```
-- **Output**: ein html-File, das ein Sankey-Diagramm darstellt
+- **Output**: a html-file with a Sankey-Diagramm
   ![example plot](doc/newplot.png)
 
-## Installation
+## Installation and steps to use
 
 1. Download source code
 2. Install dependencies (`pip install -r requirements.txt`)
