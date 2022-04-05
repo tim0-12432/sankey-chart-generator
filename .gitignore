@@ -1,0 +1,11 @@
+*.csv
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.html
+.dccache
+.venv
+__*
+!doc/*
+!Umsatz-Example.csv
