@@ -1,10 +1,15 @@
 configuration = {
+    # csv export of bank account
     "inputFile": "Umsatz-Example.csv",
+    # month to analyze (0 = all)
     "filterMonth": 0,
+    # html should be generated (otherwise just jpeg)
     "htmlOutput": True,
+    # list of names to be considered as income
     "einkommen": [
         "Musterunternehmen"
     ],
+    # list of names to be considered as expenses
     "ausgaben": {
         "nahrungsmittel": [
             "Lidl",
@@ -41,5 +46,6 @@ configuration = {
             "SATURN"
         ]
     },
+    # debugging information
     "debug": False
 }

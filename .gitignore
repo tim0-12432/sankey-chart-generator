@@ -8,4 +8,3 @@
 .venv
 __*
 !doc/*
-!Umsatz-Example.csv
